@@ -13,7 +13,7 @@ public class StringMain {
         System.out.println(city1==city7);   // new 키워드 아닌 Asia == new 키워드 아닌 Asia T
         System.out.println(city1.equals(city3)); // new 키워드 아닌 Asia.equals(new키워드 Asia) T
         System.out.println(city1.equals(city7)); // new 키워드 아닌 Asia.equals(new키워드 아닌  Asia) T
-
+        /* 0523 스터디*/
         /*  .equals() 는 해시 코드를 비교하고  == 는 레퍼런스를 비교한다. */
 
         String city4 = String.format("%s-%s", city1,city2);
