@@ -11,7 +11,7 @@ public class Operator3 {
         int num2 = sc.nextInt();
         int Big_num = 0;
 
-
+        sc.close();
         /* 두 수를 비교하여 더 큰 값을 Big num 에다가 저장 */
         if (num1 > num2) {
             Big_num = num1;
