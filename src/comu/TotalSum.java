@@ -23,6 +23,17 @@ public class TotalSum {
             j++;
         }
         System.out.printf("1부터 %d까지의 합은 %d입니다! ",num, total);
+
+        /* 구구단 출력 */
+
+        for (int i=1; i<num; i++){
+            for (j=1; j<10; j++){
+                System.out.printf("%d * %d = %d\n", i ,j, i*j);
+            }
+        }
+
+
+
         sc.close();
     }
 }
