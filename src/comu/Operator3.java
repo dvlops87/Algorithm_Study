@@ -21,6 +21,6 @@ public class Operator3 {
 
         //Big_num이 0으로 초기화한 상태 그대로라면 두 수가 같음을 의미
         System.out.print("둘 중에 큰 수는 : ");
-        System.out.println(Big_num != 0 ? Big_num : "같음");
+        System.out.println(num1 > num2 ? num1 : "같음");
     }
 }
