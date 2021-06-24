@@ -2,23 +2,24 @@ package baekjoon.study.week1;
 
 import java.util.Scanner;
 
-public class n2460 {
+public class code_2460 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int sum = 0, ans = 0;
 
+        int [][] people = new int [10][2];
         for (int i = 0; i<10; i++){
-            int in,out;
-            for(int j = 0; j<2; j++){
-                in = sc.nextInt();
-                out = sc.nextInt();
-                sum += in - out;
-            }
-            if(ans < sum) {
-                ans = sum;
-            }
+            people[i][0] = sc.nextInt();
+            people[i][1] = sc.nextInt();
         }
-        System.out.println(ans);
+
+        int sum = 0;
+        int max = 0;
+
+        for (int i = 0; i<10; i++) {
+            sum += people[i][1] - people[i][0];
+            max = Integer.max(max, sum); //큰 값 리턴
+        }
+        System.out.println(max);
         sc.close();
     }
 }
