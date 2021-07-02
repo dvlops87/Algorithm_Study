@@ -5,6 +5,6 @@ while b != 0:
     a = a % b 
     a, b = b, a 
 print(a) 
-print(A*B//a)
+print(A*B//a) 
 
 #유클리드 호제법

@@ -13,4 +13,4 @@ for i in range(len(nanList)-1):
             del nanList[i]
             break
 for i in range(len(nanList)):
-    print(nanList[i])
+    print(nanList[i]) 

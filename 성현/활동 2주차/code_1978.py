@@ -9,4 +9,4 @@ for i in list:
     if count==2:
         out+=1
     count=0
-print(out)
+print(out) 
