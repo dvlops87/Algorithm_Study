@@ -1,5 +1,5 @@
 while True:
-    try:
+    try: 
         print(input())
     except EOFError:
         break
