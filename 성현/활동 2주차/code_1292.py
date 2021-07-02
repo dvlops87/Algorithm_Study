@@ -1,4 +1,4 @@
-number_list = []
+number_list = [] 
 for i in range(1, 46):
     number_list += [i] * i
     

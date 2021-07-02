@@ -1,5 +1,5 @@
 #다 더하고 빼기
-nanList = []
+nanList = [] 
 total = 0
 for i in range(9):
     nanList.append(int(input()))    #난쟁이 리스트에 추가
