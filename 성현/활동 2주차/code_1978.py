@@ -1,4 +1,4 @@
-T = int(input())
+T = int(input()) 
 list = list(map(int,(input().split())))
 count=0
 out=0

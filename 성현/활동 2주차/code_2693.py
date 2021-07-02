@@ -1,5 +1,5 @@
 import sys
-T = int(input())
+T = int(input()) 
 data = []
 for i in range(T):
     data=(list(map(int,sys.stdin.readline().split())))
