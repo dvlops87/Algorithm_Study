@@ -1,3 +1,5 @@
+#1850. 최대공약수
+
 import math
 import sys 
 
